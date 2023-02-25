@@ -28,8 +28,8 @@ class URL_Shortener:
         return "".join(ret[::-1])
 #Tests
 shortener = URL_Shortener()
-print(shortener.shorten_url("goooooooooooooogle.com"))
-print(shortener.shorten_url("goooooooooooooogle.com"))
-print(shortener.shorten_url("veryloooooooongurl.com"))
-print(shortener.shorten_url("helllloooooooooooo.com"))
-print(shortener.shorten_url("https://coding_interview.com/questions/183658/replacing-letters-with-number"))
+print(shortener.shorten_url("mynameisALI.com"))
+print(shortener.shorten_url("www.linkedin.com/in/muhammad-ahasnain"))
+print(shortener.shorten_url("meowmeow.com"))
+print(shortener.shorten_url("hellllooooooooooooworlddddddddd.com"))
+
